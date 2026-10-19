@@ -3,19 +3,19 @@ package pkg;
 public class Calculadora {
 
 	public static int resta(int i, int j) {
-		return -1;
+		return i-j;
 	}
 
 	public static int suma(int i, int j) {
-		return 5;
+		return i+j;
 	}
 
 	public static int multiplicacion(int i, int j) {
-		return 6;
+		return i*j;
 	}
 
 	public static int divide(int i, int j) {
-		return 0;
+		return i/j;
 	}
 
 }
